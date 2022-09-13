@@ -129,7 +129,7 @@ trait Queueable
     /**
      * Set the desired delay for the job.
      *
-     * @var \DateTimeInterface|\DateInterval|array|int|null
+     * @param \DateTimeInterface|\DateInterval|array|int|null
      * @return $this
      */
     public function delay($delay)
